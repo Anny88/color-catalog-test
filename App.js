@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, View, Alert, Button, StyleSheet, Dimensions, Image } from 'react-native';
+import { Text, View, Alert, Button, StyleSheet, Dimensions, Image, FlatList } from 'react-native';
 import pic1 from "./assets/Download.jpeg";
 import pic2 from "./assets/images.jpeg";
 
@@ -46,7 +46,9 @@ const styles = StyleSheet.create({
         flex: 1,
         borderRadius: 50,
         margin: 10,
-        width: Dimensions.get("window").width - 10
+        height: 100,
+        width: 100,
+        // width: Dimensions.get("window").width - 10
     }
 });
 
